@@ -1,0 +1,275 @@
+.form-control-file {
+  line-height: 1.31;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+.form-control {
+  border-color: #a5a5a5;
+}
+
+.app-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 7;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+
+  box-shadow: 3px -3px 7px 0px rgba(8, 10, 37, 0.2);
+  // .app-footer__inner {
+  //   box-shadow: 0.3rem -0.46875rem 2.1875rem rgba(darken($primary, 50%), 0.02),
+  //     0.3rem -0.9375rem 1.40625rem rgba(darken($primary, 50%), 0.02),
+  //     0.3rem -0.25rem 0.53125rem rgba(darken($primary, 50%), 0.04),
+  //     0.3rem -0.125rem 0.1875rem rgba(darken($primary, 50%), 0.02);
+  // }
+}
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  min-width: 33%;
+  overflow-x: hidden;
+  //padding-top: 67px;
+}
+.app-main {
+  background-color: #736060;
+  height: 50vh;
+}
+.h-100vh {
+  height: 100vh;
+}
+.h-70vh {
+  height: 70vh;
+}
+.ml-5px {
+  margin-left: 5px;
+}
+.br-top-home {
+  border-top: 2px solid rgba(0, 0, 0, 0.125);
+}
+
+.round-button {
+  display: block;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: #ffcc00;
+  border: 1px solid #fff;
+}
+.round-button:hover {
+  display: block;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background-color: #005eb8;
+  border: 1px solid #fff;
+}
+.charts {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+span {
+  margin: 20px;
+}
+
+.label {
+  display: inline-block;
+  width: 120px;
+}
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip-box {
+  font-size: 12px;
+  position: absolute;
+  background: rgb(11, 26, 88);
+  color: #fff;
+  padding: 5px;
+  right: -11px;
+  width: 63px;
+  border-radius: 5px;
+  bottom: calc(100% + 5px);
+  display: none;
+  z-index: 1;
+}
+
+.tooltip-box.visible {
+  display: block;
+}
+
+.tooltip-arrow {
+  position: absolute;
+
+  left: 11%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(11, 26, 88) transparent transparent transparent;
+}
+.input-radio {
+  color: #4f4f4f !important;
+  font-weight: 400 !important;
+  font-size: 0.88rem !important;
+  text-align: left !important;
+}
+
+.error-message {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+.my-modal {
+  width: 90vw;
+  max-width: 90vw;
+}
+.card-footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.delete-modal-bg {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(90, 90, 90, 0.5);
+  z-index: 9999;
+}
+.mt_1 {
+  margin-top: 1px;
+}
+.mt_neg5 {
+  margin-top: -5px;
+}
+.p-7 {
+  padding: 7px;
+}
+.img_partType_gif {
+  width: 100%;
+  //height: 134px;
+}
+.dropdown-menu {
+  min-width: 19rem;
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.inspection-btn-wd {
+  width: 84%;
+}
+.box {
+  display: inline-block;
+  height: 12px;
+  width: 15px;
+  border: 2px solid;
+}
+.height-c {
+  height: 35px;
+}
+.generate-sn-btn {
+  color: blue;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.generate-sn-btn:hover {
+  text-decoration: underline;
+}
+.h-400 {
+  height: 400px;
+}
+
+.fn-12 {
+  font-size: 12px;
+}
+
+.fn-13 {
+  font-size: 13px;
+}
+
+.fn-14 {
+  font-size: 14px;
+}
+.wd-max-200 {
+  max-width: 200px;
+}
+.ht-max-100 {
+  max-height: 100px;
+}
+.m-30 {
+  margin: 30px;
+}
+
+.fn-8 {
+  font-size: 8px !important;
+}
+.fn-18 {
+  font-size: 18px !important;
+}
+.dropdown-notification {
+  left: unset;
+  right: 0;
+  //height: 350px;
+  max-height: 350px;
+  overflow-y: auto;
+  cursor: default;
+}
+.Toastify__toast-container {
+  width: auto !important;
+}
+.pointer-none {
+  cursor: default !important;
+}
+.print-source {
+  display: none;
+  background-color: red;
+}
+
+body > .print-source {
+  display: block;
+}
+
+@media print {
+  .print-source {
+    display: block;
+    background-color: green;
+  }
+}
+.fn_size_header {
+  font-size: 1.125rem;
+}
+.text_underline {
+  text-decoration: underline;
+}
+.Toastify__toast-container {
+  z-index: 100000 !important;
+}
+.description_text {
+  overflow: auto;
+  min-width: 40px;
+  max-height: 60px;
+}
+.min_height_none {
+  min-height: 0;
+}
+
+.mw-60 {
+  min-width: 60px !important;
+}
+.mw-70 {
+  min-width: 70px !important;
+}
+
+.ws-nowrap {
+  white-space: nowrap;
+}

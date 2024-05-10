@@ -1,0 +1,30 @@
+{
+  "content": [
+    {
+      "english": 78,
+      "biology": 87,
+      "maths": 89,
+      "chemestry": 54,
+      "physics": 98,
+      "gender": "female",
+      "age": 30,
+      "stdname": "nihaa",
+      "from": "2022-10-03",
+      "to": "2025-12-26",
+      "id": 2
+    },
+    {
+      "english": 77,
+      "biology": 87,
+      "maths": 78,
+      "chemestry": 59,
+      "physics": 65,
+      "gender": "female",
+      "age": 23,
+      "stdname": "Anjum",
+      "from": "2009-08-11",
+      "to": "2013-04-13",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+.amp-fieldeset-wrapper {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 0.7rem;
+
+  legend {
+    margin-bottom: 0.15rem;
+  }
+}
+
+.amp-fieldeset {
+  border-radius: 0.25rem;
+  legend {
+    margin-bottom: 0.15rem;
+    margin-left: 0.5rem;
+  }
+}
+
+.editRuleGroupSections {
+  padding: 5px 25px;
+  .row > div {
+    margin: 0 5px;
+  }
+}

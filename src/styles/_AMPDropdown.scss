@@ -1,0 +1,120 @@
+.amp-dropdown-menu.rbt-menu.dropdown-menu {
+  z-index: 1500;
+  .dropdown-item {
+    min-height: 33px;
+    .rbt-highlight-text {
+      color: red;
+    }
+
+    &.active {
+      background-color: #e4f8ff;
+      color: inherit;
+
+      .rbt-highlight-text {
+        color: red;
+      }
+    }
+  }
+}
+
+.amp-dropdown {
+  flex: 1;
+  .form-control {
+    border-right-width: 0px;
+    //border-top-left-radius: 0;
+    //border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    &.form-control-sm {
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+/* .input-group .input-group-prepend + div .amp-dropdown .form-control {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+} */
+
+.amp-dropdown-wrapper {
+  &:hover {
+    .input-group-append {
+      .btn.amp-drowpdown-btn {
+        color: #212529;
+        background-color: #eeeeee;
+
+        &:disabled {
+          color: #d7d7d7;
+          background-color: #e9ecef;
+          opacity: 1;
+          &:hover {
+            color: #d7d7d7;
+          }
+        }
+      }
+    }
+  }
+  .input-group-append {
+    .btn.amp-drowpdown-btn {
+      &:disabled {
+        color: #d7d7d7;
+        background-color: #e9ecef;
+        opacity: 1;
+        &:hover {
+          color: #d7d7d7 !important;
+          background-color: #e9ecef;
+        }
+      }
+      /* border-color: #ced4da; */
+      border-color: #a5a5a5;
+      //border-left-color: transparent;
+      border-left-width: 0px;
+    }
+  }
+  .amp-dropdown {
+    &.readonly {
+      .form-control {
+        background-color: #e9ecef36;
+      }
+    }
+  }
+
+  &.focused {
+    .btn.amp-drowpdown-btn {
+      border-color: blue;
+    }
+  }
+}
+
+.is-invalid {
+  .input-group-append {
+    .btn.amp-drowpdown-btn {
+      border-color: red;
+    }
+  }
+}
+
+@keyframes fade-in-right {
+  0% {
+    left: -50px;
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.amp-popover.popover {
+  z-index: 1040;
+  &.show {
+    animation: fade-in-right 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+}

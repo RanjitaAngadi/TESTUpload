@@ -1,0 +1,320 @@
+{
+    "partDetails": [
+        {
+            "id": "6dc3103a-b99b-ec11-8100-00505689d479",
+            "componentId": 7,
+            "partnumber": "P100064",
+            "description": "Rotary Union",
+            "bearingQuantity": 5,
+            "minimumValue": "3.005",
+            "maximumValue": "5.004",
+            "bearingValues": null
+        },
+        {
+            "id": "7910b10e-a8a9-ec11-8101-00505689d479",
+            "componentId": 8,
+            "partnumber": "P18517C",
+            "description": "3/4 Inch Cover Bolt",
+            "bearingQuantity": 5,
+            "minimumValue": "1.000",
+            "maximumValue": "2.000",
+            "bearingValues": null
+        },
+        {
+            "id": "40849ff4-520e-ed11-8106-00505689d479",
+            "componentId": 215,
+            "partnumber": "NEWPART001",
+            "description": "NEWPART001 | Clearance",
+            "bearingQuantity": 3,
+            "minimumValue": "2.000",
+            "maximumValue": "5.000",
+            "bearingValues": null
+        }
+    ],
+    "partDetailsRecords": [
+        {
+            "partTypeComponentId": "6dc3103a-b99b-ec11-8100-00505689d479",
+            "inspectionPartTypeComponentDetailResponses": [
+                {
+                    "id": "9ed62340-fd43-4603-c93b-08da7512dcfc",
+                    "serialNumber": "1233",
+                    "heatCode": "12345",
+                    "ponumber": "9876"
+                },
+                {
+                    "id": "30e51cb3-542e-47b1-c93c-08da7512dcfc",
+                    "serialNumber": "1235",
+                    "heatCode": "654",
+                    "ponumber": "224455"
+                }
+            ]
+        },
+        {
+            "partTypeComponentId": "7910b10e-a8a9-ec11-8101-00505689d479",
+            "inspectionPartTypeComponentDetailResponses": [
+                {
+                    "id": "3e782ffe-b035-47b4-c93d-08da7512dcfc",
+                    "serialNumber": "2233",
+                    "heatCode": "5566",
+                    "ponumber": "8899"
+                }
+            ]
+        },
+        {
+            "partTypeComponentId": "40849ff4-520e-ed11-8106-00505689d479",
+            "inspectionPartTypeComponentDetailResponses": [
+                {
+                    "id": "167842e9-eef7-4424-5eb9-08da7152af4c",
+                    "serialNumber": "NEWPART001-P1",
+                    "heatCode": "NEWPART001-P1",
+                    "ponumber": "NEWPART001-P1"
+                }
+            ]
+        }
+    ],
+    "clearanceDetails": [
+        {
+            "id": "6dc3103a-b99b-ec11-8100-00505689d479",
+            "componentId": 7,
+            "partnumber": "P100064",
+            "description": "Rotary Union",
+            "bearingQuantity": 5,
+            "minimumValue": "3.005",
+            "maximumValue": "5.004",
+            "bearingValues": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 1,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 2,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 3,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 4,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 5,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                }
+            ]
+        },
+        {
+            "id": "7910b10e-a8a9-ec11-8101-00505689d479",
+            "componentId": 8,
+            "partnumber": "P18517C",
+            "description": "3/4 Inch Cover Bolt",
+            "bearingQuantity": 5,
+            "minimumValue": "1.000",
+            "maximumValue": "2.000",
+            "bearingValues": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 1,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 2,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 3,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 4,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 5,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                }
+            ]
+        },
+        {
+            "id": "40849ff4-520e-ed11-8106-00505689d479",
+            "componentId": 215,
+            "partnumber": "NEWPART001",
+            "description": "NEWPART001 | Clearance",
+            "bearingQuantity": 3,
+            "minimumValue": "2.000",
+            "maximumValue": "5.000",
+            "bearingValues": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 1,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 2,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 3,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                }
+            ]
+        }
+    ],
+    "torqueDetails": [
+        {
+            "id": "6ac3103a-b99b-ec11-8100-00505689d479",
+            "componentId": 4,
+            "partnumber": "P138784",
+            "description": "Oil Breather",
+            "bearingQuantity": 4,
+            "minimumValue": "5.001",
+            "maximumValue": "10.000",
+            "bearingValues": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 1,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 2,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 3,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 4,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                }
+            ]
+        },
+        {
+            "id": "6bc3103a-b99b-ec11-8100-00505689d479",
+            "componentId": 5,
+            "partnumber": "P100068",
+            "description": "Pinion Seal",
+            "bearingQuantity": 4,
+            "minimumValue": "5.000",
+            "maximumValue": "9.000",
+            "bearingValues": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 1,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 2,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 3,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 4,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                }
+            ]
+        },
+        {
+            "id": "6cc3103a-b99b-ec11-8100-00505689d479",
+            "componentId": 6,
+            "partnumber": "P115835",
+            "description": "Rotary Union Seal",
+            "bearingQuantity": 4,
+            "minimumValue": "7.973",
+            "maximumValue": "8.983",
+            "bearingValues": [
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 1,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 2,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 3,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                },
+                {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "bearingSequenceNumber": 4,
+                    "reading": 0,
+                    "gaugeId": 0,
+                    "comment": null
+                }
+            ]
+        }
+    ]
+}

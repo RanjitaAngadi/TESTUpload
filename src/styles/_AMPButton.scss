@@ -1,0 +1,174 @@
+.amp-button {
+  &.btn-link {
+    padding: 0;
+  }
+
+  &.label-full-mini {
+    padding: 0 0.25rem !important;
+    height: 21px;
+    margin: 0.1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  &.button-mini {
+    padding: 0 !important;
+    height: 21px;
+    width: 21px;
+    margin: 0.1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+
+    &.btn-xxs {
+      height: 12px;
+      width: 12px;
+    }
+    &.btn-md {
+      height: 25px;
+      width: 25px;
+    }
+    &.btn-lg {
+      height: 30px;
+      width: 30px;
+    }
+
+    &.label-mini > div {
+      position: relative;
+      top: -0.033rem;
+    }
+
+    &.label-mini,
+    &.icon-mini {
+      &.shape-circle {
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+      }
+    }
+
+    &.shape-circle {
+      border-radius: 12px;
+    }
+  }
+}
+
+@mixin button-outline-variant(
+  $color,
+  $color-hover: color-yiq($color),
+  $active-background: $color,
+  $active-border: $color
+) {
+  color: $color;
+  border-color: $color;
+
+  @include hover {
+    color: $color-hover !important;
+    background-color: $active-background;
+    border-color: $active-border;
+  }
+
+  &:focus,
+  &.focus {
+    box-shadow: 0 0 0 $btn-focus-width rgba($color, 0.5);
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $color;
+    background-color: transparent;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: color-yiq($active-background);
+    background-color: $active-background;
+    border-color: $active-border;
+
+    &:focus {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      @if $enable-shadows and $btn-active-box-shadow != none {
+        box-shadow: $btn-active-box-shadow,
+          0 0 0 $btn-focus-width rgba($color, 0.5);
+      } @else {
+        box-shadow: 0 0 0 $btn-focus-width rgba($color, 0.5);
+      }
+    }
+  }
+}
+
+.btn-link,
+.amp-link {
+  font-weight: 600;
+  color: theme-color("primary") !important;
+  text-decoration: none;
+}
+
+@mixin button-amp-monochrome-variant(
+  $color,
+  $color-hover: color-yiq($color),
+  $active-background: transparent,
+  $active-border: $color
+) {
+  color: $color !important;
+  border: $color;
+
+  &.amp-button.button-mini:not(.btn-shadow) {
+    font-size: 1.25rem;
+    &.btn-xxs {
+      font-size: 0.9rem;
+    }
+    &.btn-md {
+      font-size: 1.563rem;
+    }
+    &.btn-lg {
+      font-size: 1.875rem;
+    }
+  }
+
+  @include hover {
+    color: $color !important;
+    background-color: $active-background;
+    border-color: $active-border;
+  }
+
+  &:focus,
+  &.focus {
+    box-shadow: 0 0 0 $btn-focus-width rgba($color, 0.5);
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $color;
+    background-color: transparent;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    /* color: color-yiq($active-background);
+    background-color: $active-background;
+    border-color: $active-border; */
+    font-size: 0.95rem;
+
+    &.amp-button.button-mini:not(.btn-shadow) {
+      font-size: 1.15rem;
+      &.btn-xxs {
+        font-size: 0.75rem;
+      }
+      &.btn-md {
+        font-size: 1.463rem;
+      }
+      &.btn-lg {
+        font-size: 1.775rem;
+      }
+    }
+    /*   &:focus {
+      // Avoid using mixin so we can pass custom focus shadow properly
+      @if $enable-shadows and $btn-active-box-shadow != none {
+        box-shadow: $btn-active-box-shadow,
+          0 0 0 $btn-focus-width rgba($color, 0.5);
+      } @else {
+        box-shadow: 0 0 0 $btn-focus-width rgba($color, 0.5);
+      }
+    } */
+  }
+}
